@@ -1,0 +1,192 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 9, 2024, 12:15:15 AM
+    Author     : Admin
+*/
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    /*display: flex;*/
+    background-color: #f4f7fa;
+}
+
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 170px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.header .title h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header .breadcrumbs a {
+    text-decoration: none;
+    color: #7f8c8d;
+    margin-right: 5px;
+}
+
+.header .breadcrumbs a:hover {
+    text-decoration: underline;
+}
+.header .user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.header .user-profile img {
+    border-radius: 50%;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.inner-form {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.inner-form .inner-main .inner-head {
+    background-color: #3498db;
+    text-align: center;
+    color: #fff;
+    font-weight: 750;
+    border-radius: 10px 10px 0 0;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.inner-form .inner-main .inner-head h2 {
+    font-weight: 700;
+}
+
+.inner-form .inner-main .inner-body {
+    padding: 10px;
+    font-weight: 600;
+}
+
+.gender-choice{
+    padding: 7px;
+    border: 1px solid #3498db;
+}
+
+.button {
+    background: -webkit-linear-gradient(-30deg, #3498db, #0790ec 100%);
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 45px;
+}
+
+.back-icon{
+    color:black;
+    font-size: 28px;
+    margin: 10px 5px;
+}
+
+.data-tabless {
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+.inner-head {
+    background-color: #FF770F;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.inner-head h2 {
+    margin: 0;
+}
+
+/* Table styling */
+.tbl {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tbl thead {
+    background-color: red;
+}
+
+.tbl th,
+.tbl td {
+    padding: 10px;
+    text-align: left;
+}
+
+.tbl th {
+    background-color: #3498db;
+    color: white;
+}
+
+.tbl tr:nth-child(even) {
+    transition: all ease-in 0.15s;
+    background-color: #f2f2f2;
+}
+
+.tbl tr:hover {
+    transition: all ease-in 0.15s;
+    background-color: #ddd;
+}
+
+.tbl th:first-child,
+.tbl td:first-child {
+    border-left: none;
+}
+
+.tbl th:last-child,
+.tbl td:last-child {
+    border-right: none;
+}
+
+.total-price {
+    text-align: right;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+.order{
+    margin-left: 20px;
+}
+
+.total-price {
+    text-align: right;
+    margin-right: 20px;
+}
+.total-price > h2 {
+    font-size: 28px;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #F6FC80;
+}
+.order{
+    margin-left: 20px;
+}

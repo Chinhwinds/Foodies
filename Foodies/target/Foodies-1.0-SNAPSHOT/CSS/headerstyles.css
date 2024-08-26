@@ -1,0 +1,42 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 20, 2024, 2:26:40 PM
+    Author     : Admin
+*/
+
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+    color: white;
+}
+
+/* Color of the navbar BEFORE scroll */
+.navbar-scroll {
+    background-color: greenyellow;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+    color: white;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scrolled {
+    background-color: #fff;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+    padding-top: auto;
+    padding-bottom: auto;
+}
+.navbar-brand {
+    font-size: unset;
+    height: 3.5rem;
+}

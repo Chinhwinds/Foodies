@@ -1,0 +1,169 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 19, 2024, 11:18:51 AM
+    Author     : Chinhwind
+*/
+
+
+
+header {
+  background-color: #f0f0f0; /* Example background */
+}
+.card-img-top {
+  width: 100%;
+  height: auto;  
+  object-fit: cover; 
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img { /* Adjust logo size as needed */
+  max-height: 50px;
+}
+
+.item-list {
+    padding-left: 4rem;
+}
+
+.container {
+    margin: 0;
+    width: 100%
+}
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.row {
+    border-right: 1px solid #ccccff;
+}
+.nav-links li {
+  display: inline;
+  margin-left: 20px;
+}
+
+main {
+  display: flex; /* Left categories, right food items */
+  width: 100vw !important;
+}
+
+
+
+#banner .carousel {
+    height: 50vh; /* Set the height of the carousel to 25% of the viewport height */
+}
+
+#banner .carousel-item img {
+    object-fit: cover;
+    height: 50vh;     
+}
+
+
+.categories {
+  width: 100%; /* Adjust width as needed */
+  padding: 1rem;
+}
+
+.categories li a{
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.categories li:hover{
+  text-decoration: none;
+  background-color: #cccccc;
+}
+
+
+
+.categories ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list-group-item {
+    width: 100%
+}
+.food-items {
+  width: 80%; /* Adjust width as needed */
+  padding: 1rem;
+}
+
+footer {
+  /* Style your footer */
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.cart-items {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.cart-summary {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.cart-item {
+    /* Kiểu dáng cho từng món hàng */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+@media (min-width: 1025px) {
+.h-custom {
+height: 100vh !important;
+}
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+font-size: 1rem;
+line-height: 2.15;
+padding-left: .75em;
+padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+top: 13px;
+}
+.gradient-custom {
+/* fallback for old browsers */
+background: #cd9cf2;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to top left, rgba(205, 156, 242, 1), rgba(246, 243, 255, 1));
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to top left, rgba(205, 156, 242, 1), rgba(246, 243, 255, 1))
+}
